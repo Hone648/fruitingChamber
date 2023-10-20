@@ -61,21 +61,25 @@ macOS, or Linux). There might be two versions available: one from the Microsoft 
     #include <DS1302.h>             // For DS1302 library by Rafa Couto
     #include <Adafruit_Sensor.h>    // For Adafruit Unified Sensor library
     #include <DHT.h>                // For DHT sensor library
-6. **Initial Configuration:**
+6. **Move the `.ino` file in this repository to the Arduino folder:**
+    * Create a folder called fruitingChamber in the Documents>Arduino folder.
+    * Copy the `fruitingChamber.ino` to this new folder.
+
+7. **Initial Configuration:**
 
     When you first launch the Arduino IDE, you might need to configure it to recognize your Arduino board. To do this:
     * Go to the "Tools" menu. 
     * Select "Board" and choose your specific Arduino model (e.g., Arduino Uno).
     * Under the "Port" menu, select the serial port your Arduino is connected to (if it's not automatically detected).
 
-7. **Verify and Compile Your Sketch:**
+8. **Verify and Compile Your Sketch:**
     Click the checkmark icon (✓) or go to "Sketch" > "Verify/Compile" to check your code for errors. The IDE will compile the code, and if there are no errors, you will see "Done compiling" at the bottom of the window.
 
-8. **Upload Your Sketch:**
+9. **Upload Your Sketch:**
     * Click the right arrow icon (→) or go to "Sketch" > "Upload" to upload your sketch to the Arduino board.
     * During the upload process, you'll see the status messages in the black console at the bottom of the Arduino IDE window.
 
-9. **Upload Completion:**
+10. **Upload Completion:**
     
     Once the upload is successful, you'll see "Done uploading" in the status console.
 
