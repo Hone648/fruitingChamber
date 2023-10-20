@@ -58,12 +58,9 @@ macOS, or Linux). There might be two versions available: one from the Microsoft 
     #include <Adafruit_MCP23017.h>  // For MCP23017 library
     #include <Adafruit_SSD1306.h>   // For SSD1306 OLED library
     #include <Adafruit_Sensor.h>    // For Adafruit Sensor library
-    #include <DS1302.h>             // For DS1302 library by Rafa 
-Couto
+    #include <DS1302.h>             // For DS1302 library by Rafa Couto
     #include <Adafruit_Sensor.h>    // For Adafruit Unified Sensor library
     #include <DHT.h>                // For DHT sensor library
-```
-
 6. **Initial Configuration:**
 
     When you first launch the Arduino IDE, you might need to configure it to recognize your Arduino board. To do this:
