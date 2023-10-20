@@ -55,7 +55,7 @@ macOS, or Linux). There might be two versions available: one from the Microsoft 
     That's it! You have successfully installed all the required libraries.
 
     ```cpp
-    #include <Adafruit_MCP23017.h>  // For MCP23017 library
+    #include <SPI.h>                // For MCP23017 library
     #include <Adafruit_SSD1306.h>   // For SSD1306 OLED library
     #include <Adafruit_Sensor.h>    // For Adafruit Sensor library
     #include <DS1302.h>             // For DS1302 library by Rafa Couto
@@ -79,4 +79,4 @@ macOS, or Linux). There might be two versions available: one from the Microsoft 
     
     Once the upload is successful, you'll see "Done uploading" in the status console.
 
-Your code should now be running on the Arduino board. The board will execute the code, and you can observe the results
+Your code should now be running on the Arduino board. The board will execute the code, and you can observe the results.
