@@ -65,21 +65,26 @@ macOS, or Linux). There might be two versions available: one from the Microsoft 
     * Create a folder called fruitingChamber in the Documents > Arduino folder.
     * Copy the `fruitingChamber.ino` to this new folder.
 
-7. **Initial Configuration:**
+7.  **Load our Sketch:**
+    * In the Arduino IDE, locate and click on the "File" menu at the top-left corner of the window.
+    * Choose "Open..." (for Windows and Linux) or "Open File..." (for macOS).
+    * Select the fruitingChamber folder and then select the `fruitingChamber.ino` file.
 
-    When you first launch the Arduino IDE, you might need to configure it to recognize your Arduino board. To do this:
+8. **Initial Configuration:**
+
+    You might need to configure the IDE to recognize your Arduino board. To do this:
     * Go to the "Tools" menu. 
     * Select "Board" and choose your specific Arduino model (e.g., Arduino Uno).
     * Under the "Port" menu, select the serial port your Arduino is connected to (if it's not automatically detected).
 
-8. **Verify and Compile Your Sketch:**
+9. **Verify and Compile Your Sketch:**
     Click the checkmark icon (✓) or go to "Sketch" > "Verify/Compile" to check your code for errors. The IDE will compile the code, and if there are no errors, you will see "Done compiling" at the bottom of the window.
 
-9. **Upload Your Sketch:**
+10. **Upload Your Sketch:**
     * Click the right arrow icon (→) or go to "Sketch" > "Upload" to upload your sketch to the Arduino board.
     * During the upload process, you'll see the status messages in the black console at the bottom of the Arduino IDE window.
 
-10. **Upload Completion:**
+11. **Upload Completion:**
     
     Once the upload is successful, you'll see "Done uploading" in the status console.
 
