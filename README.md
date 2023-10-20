@@ -29,9 +29,39 @@ macOS, or Linux). There might be two versions available: one from the Microsoft 
     
     Once the installation is complete, you can launch the Arduino IDE from your applications menu (on Windows or macOS) or by running the arduino command in your terminal (on Linux).
 
-4. Initial Configuration:
+4. **Navigate to the Library Manager:**
+    * In the Arduino IDE, go to the "Sketch" menu.
+    * Select "Include Library" > "Manage Libraries...".
+ 
+5. **Search for the Library:**
+    * Adafruit-MCP23017-Arduino-Library:
+      * Type "Adafruit MCP23017" in the search bar.
+      * Click "Install" when you find the "Adafruit-MCP23017-Arduino-Library."
+
+    * Adafruit SSD1306 Library:
+      * Type "Adafruit SSD1306" in the search bar.
+      * Click "Install" when you find the "Adafruit SSD1306" library.
+
+    * DS1302 by Rafa Couto:
+      * Type "DS1302" in the search bar.
+      *Look for the "DS1302" library by Rafa Couto and click "Install."
+
+5. **Initial Configuration:**
 
     When you first launch the Arduino IDE, you might need to configure it to recognize your Arduino board. To do this:
     * Go to the "Tools" menu. 
     * Select "Board" and choose your specific Arduino model (e.g., Arduino Uno).
     * Under the "Port" menu, select the serial port your Arduino is connected to (if it's not automatically detected).
+
+6. **Verify and Compile Your Sketch:**
+    Click the checkmark icon (✓) or go to "Sketch" > "Verify/Compile" to check your code for errors. The IDE will compile the code, and if there are no errors, you will see "Done compiling" at the bottom of the window.
+
+7. **Upload Your Sketch:**
+    * Click the right arrow icon (→) or go to "Sketch" > "Upload" to upload your sketch to the Arduino board.
+    * During the upload process, you'll see the status messages in the black console at the bottom of the Arduino IDE window.
+
+8. **Upload Completion:**
+    
+    Once the upload is successful, you'll see "Done uploading" in the status console.
+
+Your code should now be running on the Arduino board. The board will execute the code, and you can observe the results
