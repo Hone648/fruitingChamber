@@ -45,22 +45,40 @@ macOS, or Linux). There might be two versions available: one from the Microsoft 
     * DS1302 by Rafa Couto:
       * Type "DS1302" in the search bar.
       *Look for the "DS1302" library by Rafa Couto and click "Install."
+    * Adafruit Unified Sensor:
+      * Type "Adafruit Unified Sensor" in the search bar.
+      * Click "Install" when you find the "Adafruit Unified Sensor" library.
+    * DHT sensor library:
+      * Type "DHT sensor" in the search bar.
+      * Look for the "DHT sensor library" and click "Install."
 
-5. **Initial Configuration:**
+    That's it! You have successfully installed all the required libraries.
+
+    ```cpp
+    #include <Adafruit_MCP23017.h>  // For MCP23017 library
+    #include <Adafruit_SSD1306.h>   // For SSD1306 OLED library
+    #include <Adafruit_Sensor.h>    // For Adafruit Sensor library
+    #include <DS1302.h>             // For DS1302 library by Rafa 
+Couto
+    #include <Adafruit_Sensor.h>    // For Adafruit Unified Sensor library
+    #include <DHT.h>                // For DHT sensor library
+```
+
+6. **Initial Configuration:**
 
     When you first launch the Arduino IDE, you might need to configure it to recognize your Arduino board. To do this:
     * Go to the "Tools" menu. 
     * Select "Board" and choose your specific Arduino model (e.g., Arduino Uno).
     * Under the "Port" menu, select the serial port your Arduino is connected to (if it's not automatically detected).
 
-6. **Verify and Compile Your Sketch:**
+7. **Verify and Compile Your Sketch:**
     Click the checkmark icon (✓) or go to "Sketch" > "Verify/Compile" to check your code for errors. The IDE will compile the code, and if there are no errors, you will see "Done compiling" at the bottom of the window.
 
-7. **Upload Your Sketch:**
+8. **Upload Your Sketch:**
     * Click the right arrow icon (→) or go to "Sketch" > "Upload" to upload your sketch to the Arduino board.
     * During the upload process, you'll see the status messages in the black console at the bottom of the Arduino IDE window.
 
-8. **Upload Completion:**
+9. **Upload Completion:**
     
     Once the upload is successful, you'll see "Done uploading" in the status console.
 
