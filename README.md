@@ -62,7 +62,7 @@ macOS, or Linux). There might be two versions available: one from the Microsoft 
     #include <Adafruit_Sensor.h>    // For Adafruit Unified Sensor library
     #include <DHT.h>                // For DHT sensor library
 6. **Move the `.ino` file in this repository to the Arduino folder:**
-    * Create a folder called fruitingChamber in the Documents>Arduino folder.
+    * Create a folder called fruitingChamber in the Documents > Arduino folder.
     * Copy the `fruitingChamber.ino` to this new folder.
 
 7. **Initial Configuration:**
